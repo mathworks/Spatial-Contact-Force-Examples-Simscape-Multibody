@@ -1,7 +1,7 @@
 %% Multibody Point Cloud Contact Cylinder on Ramp
 %
 % This example models a cylinder rolling down a ramp using two contact
-% methods.  It compares contact bewteen two solids with contact between a
+% methods.  It compares contact between two solids with contact between a
 % point cloud and a solid. The number of points in the point cloud can be
 % varied.  To maintain the same penetration, the stiffness parameter is
 % scaled with the number of points.  Fewer points, however, results in more

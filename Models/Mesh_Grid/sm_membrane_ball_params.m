@@ -1,5 +1,5 @@
 % Load parameters for sm_membrane_ball
-% Copyright 2021 The MathWorks, Inc.
+% Copyright 2021-2022 The MathWorks, Inc.
 
 % Contact parameters
 sph_mem_k     = 2e4;

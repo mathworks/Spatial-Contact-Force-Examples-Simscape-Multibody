@@ -1,5 +1,5 @@
 # **Spatial Contact Force Block Examples in Simscape Multibody&trade;**
-Copyright 2020-2021 The MathWorks, Inc.
+Copyright 2022 The MathWorks, Inc.
 
 This repository contains a set of examples that demonstrate the 
 [Spatial Contact Force block](https://www.mathworks.com/help/physmod/sm/ref/spatialcontactforce.html).
@@ -8,6 +8,7 @@ The examples cover:
 * **Contact between CAD geometry** including STEP files.
 * **[Point Cloud](https://www.mathworks.com/help/physmod/sm/ref/pointcloud.html) definition** for efficient contact modeling of complex shapes.
 * **[Grid Surface](https://www.mathworks.com/help/physmod/sm/ref/gridsurface.html) modeling** for efficient contact modeling with terrain.
+* **Custom force law definition** including collision and friction forces.
 
 Open the project file Spatial_Contact_Force_Examples.prj to get started.
 

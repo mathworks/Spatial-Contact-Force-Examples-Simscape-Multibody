@@ -1,12 +1,8 @@
-% Startup script for project Aileron_Act.prj
-% Copyright 2018-2021 The MathWorks, Inc.
+% Startup script for project
+% Copyright 2018-2022 The MathWorks, Inc.
 
-%% Code for building Simscape custom library at startup
-% Change to folder with package directory
+%% Change to project root folder
 curr_proj = simulinkproject;
-cd(curr_proj.RootFolder)
-
-% Change to root folder
 cd(curr_proj.RootFolder)
 
 % If running in a parallel pool
@@ -20,4 +16,5 @@ end
 
 if(open_start_content)
     sm_contact_ball
+    web('Spatial_Contact_Examples_Demo_Script.html')
 end
