@@ -1,5 +1,5 @@
 % Startup script for project Aileron_Act.prj
-% Copyright 2018-2020 The MathWorks, Inc.
+% Copyright 2018-2021 The MathWorks, Inc.
 
 %% Code for building Simscape custom library at startup
 % Change to folder with package directory
