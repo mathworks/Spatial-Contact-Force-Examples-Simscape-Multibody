@@ -12,6 +12,8 @@ The examples cover:
 
 Open the project file Spatial_Contact_Force_Examples.prj to get started.
 
+[![View Spatial Contact Force Examples Simscape Multibody on File Exchange](https://www.mathworks.com/matlabcentral/images/matlab-file-exchange.svg)](https://www.mathworks.com/matlabcentral/fileexchange/109680-spatial-contact-force-examples-simscape-multibody)
+
 ![](Models/Mesh_Grid/Overview/html/sm_membrane_ball_mechExpAnim_membr1.png)
 
 To learn more about contact modeling with Simscape Multibody, please visit:
