@@ -21,6 +21,20 @@ open_system('sm_disk_floor_custom_friction')
 
 set_param(find_system('sm_disk_floor_custom_friction','FindAll', 'on','type','annotation','Tag','ModelFeatures'),'Interpreter','off')
 
+%% Custom Force
+%
+% This shows the basic calculations required for developing a custom force
+% law.
+%
+% # Calculate quantities upon which normal/friction will depend
+% # Obtain relevant tangential veloctiy.
+% # Calculate normal force
+% # Calculate friction force
+% # Decompose friction force along relevant axes (tangential plane)
+
+open_system('sm_disk_floor_custom_friction/Custom Force Law','force')
+
+
 %% Simulation Results from Simscape Logging
 %%
 %

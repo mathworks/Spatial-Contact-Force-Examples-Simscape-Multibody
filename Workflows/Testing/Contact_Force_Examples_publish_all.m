@@ -12,6 +12,8 @@ model_name_list = {...
     'sm_membrane_ball.slx'
     'sm_ptcld_cyl_on_ramp.slx'
     'sm_point_cloud_steering_wheel.slx'
+    'sm_spinning_top_totem.slx'
+    'sm_tippe_top.slx'
     };
 
 bdclose all

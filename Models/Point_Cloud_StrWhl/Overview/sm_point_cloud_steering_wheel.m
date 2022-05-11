@@ -20,6 +20,15 @@ open_system('sm_point_cloud_steering_wheel')
 
 set_param(find_system('sm_point_cloud_steering_wheel','FindAll', 'on','type','annotation','Tag','ModelFeatures'),'Interpreter','off')
 
+
+%% Convex Hull 
+%
+% The Spatial Contact Force block uses a convex hull to detect contact
+% between the steering wheel geometry and other objects (ball, floor).
+% This plot shows what that convex hull would look like.
+%
+sm_convex_hull_stlgeometry('steering_wheel_ctr.stl','none','plot')
+
 %% Simulation Results from Simscape Logging
 %%
 %

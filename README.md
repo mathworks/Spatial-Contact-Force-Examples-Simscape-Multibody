@@ -9,6 +9,8 @@ The examples cover:
 * **[Point Cloud](https://www.mathworks.com/help/physmod/sm/ref/pointcloud.html) definition** for efficient contact modeling of complex shapes.
 * **[Grid Surface](https://www.mathworks.com/help/physmod/sm/ref/gridsurface.html) modeling** for efficient contact modeling with terrain.
 * **Custom force law definition** including collision and friction forces.
+* **Point cloud definition** to evenly distribute points over areas and volume surfaces.
+* **Convex hull visualization** by generating an STL of the hull for points and STL geometry.
 
 Open the project file Spatial_Contact_Force_Examples.prj to get started.
 

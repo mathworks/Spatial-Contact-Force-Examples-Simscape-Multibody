@@ -6,7 +6,7 @@
    <!--
 This HTML was auto-generated from MATLAB code.
 To make changes, update the MATLAB code and republish this document.
-      --><title>Spatial Contact Forces Examples</title><meta name="generator" content="MATLAB 9.12"><link rel="schema.DC" href="http://purl.org/dc/elements/1.1/"><meta name="DC.date" content="2022-04-08"><meta name="DC.source" content="Spatial_Contact_Examples_Demo_Script.m"><style type="text/css">
+      --><title>Spatial Contact Force Examples</title><meta name="generator" content="MATLAB 9.12"><link rel="schema.DC" href="http://purl.org/dc/elements/1.1/"><meta name="DC.date" content="2022-05-11"><meta name="DC.source" content="Spatial_Contact_Examples_Demo_Script.m"><style type="text/css">
 html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}:focus{outine:0}ins{text-decoration:none}del{text-decoration:line-through}table{border-collapse:collapse;border-spacing:0}
 
 html { min-height:100%; margin-bottom:1px; }
@@ -67,7 +67,7 @@ table td { padding:7px 5px; text-align:left; vertical-align:top; border:1px soli
 
 
 
-  </style></head><body><div class="content"><h1>Spatial Contact Forces Examples</h1><p>
+  </style></head><body><div class="content"><h1>Spatial Contact Force Examples</h1><p>
 <span style="font-family:Arial">
 <span style="font-size:10pt">
 <tr><b><u>Collision</u></b><br>
@@ -76,18 +76,31 @@ table td { padding:7px 5px; text-align:left; vertical-align:top; border:1px soli
 <br>
 <tr><b><u>Contact Proxies</u></b><br>
 <tr>1.  Point Cloud Steering Wheel: <a href="matlab:open_system('sm_point_cloud_steering_wheel');">Model</a>, <a href="matlab:web('sm_point_cloud_steering_wheel.html');">Documentation</a><br>
-<tr>2.  Point Cloud Disk on Ramp: <a href="matlab:open_system('sm_ptcld_cyl_on_ramp');">Model</a>, <a href="matlab:web('sm_ptcld_cyl_on_ramp.html');">Documentation</a><br>
-<tr>3.  Disk, Cylinder on Floor: <a href="matlab:open_system('sm_disk_cyl_on_floor');">Model</a>, <a href="matlab:web('sm_disk_cyl_on_floor.html');">Documentation</a><br>
-<tr>4.  Grid Surface, Ball on Membrane: <a href="matlab:open_system('sm_membrane_ball');">Model</a>, <a href="matlab:web('sm_membrane_ball.html');">Documentation</a><br>
+<tr>2.  Point Cloud Cylinder on Ramp: <a href="matlab:open_system('sm_ptcld_cyl_on_ramp');">Model</a>, <a href="matlab:web('sm_ptcld_cyl_on_ramp.html');">Documentation</a><br>
+<tr>3.  Spinning Top (Totem), Contact Solids: <a href="matlab:open_system('sm_spinning_top_totem');">Model</a>, <a href="matlab:web('sm_spinning_top_totem.html');">Documentation</a><br>
+<tr>4.  Spinning Top (Tippe), Point Cloud: <a href="matlab:open_system('sm_tippe_top');">Model</a>, <a href="matlab:web('sm_tippe_top.html');">Documentation</a><br>
+<tr>5.  Disk, Cylinder on Floor: <a href="matlab:open_system('sm_disk_cyl_on_floor');">Model</a>, <a href="matlab:web('sm_disk_cyl_on_floor.html');">Documentation</a><br>
+<tr>6.  Grid Surface, Ball on Membrane: <a href="matlab:open_system('sm_membrane_ball');">Model</a>, <a href="matlab:web('sm_membrane_ball.html');">Documentation</a><br>
 <br>
 <tr><b><u>Custom Force Laws</u></b><br>
 <tr>1.  Location-Dependent Friction, Disk on Floor: <a href="matlab:open_system('sm_disk_floor_custom_friction');">Model</a>, <a href="matlab:web('sm_disk_floor_custom_friction.html');">Documentation</a><br>
+<br>
+<tr><b><u>Point Cloud Functions</u></b><br>
+<tr>1.  Brick: <a href="matlab:Point_Cloud_Data_Brick;">Example</a>, <a href="matlab:edit('Point_Cloud_Data_Brick.m');">Code</a><br>
+<tr>2.  Circle: <a href="matlab:Point_Cloud_Data_Circle;">Example</a>, <a href="matlab:edit('Point_Cloud_Data_Circle.m');">Code</a><br>
+<tr>3.  Cylinder: <a href="matlab:Point_Cloud_Data_Cylinder;">Example</a>, <a href="matlab:edit('Point_Cloud_Data_Cylinder.m');">Code</a><br>
+<tr>4.  Sphere: <a href="matlab:Point_Cloud_Data_Sphere;">Example</a>, <a href="matlab:edit('Point_Cloud_Data_Sphere.m');">Code</a><br>
+<br>
+<tr><b><u>Convex Hull Functions</u></b><br>
+<tr>1.  STL Geometry: <a href="matlab:sm_convex_hull_stlgeometry;">Example</a>, <a href="matlab:edit('sm_convex_hull_stlgeometry.m');">Code</a><br>
+<tr>2.  Point Cloud: <a href="matlab:sm_convex_hull_pointcloud;">Example</a>, <a href="matlab:edit('sm_convex_hull_pointcloud.m');">Code</a><br>
+<tr>3.  Revolved Solid: <a href="matlab:sm_convex_hull_revolution;">Example</a>, <a href="matlab:edit('sm_convex_hull_revolution.m');">Code</a><br>
 </style>
 </style>
 </p><pre class="codeinput"><span class="comment">% Copyright 2012-2022 The MathWorks(TM), Inc.</span>
 </pre><p class="footer"><br><a href="https://www.mathworks.com/products/matlab/">Published with MATLAB&reg; R2022a</a><br></p></div><!--
 ##### SOURCE BEGIN #####
-%% Spatial Contact Forces Examples
+%% Spatial Contact Force Examples
 %
 % <html>
 % <span style="font-family:Arial">
@@ -98,12 +111,25 @@ table td { padding:7px 5px; text-align:left; vertical-align:top; border:1px soli
 % <br>
 % <tr><b><u>Contact Proxies</u></b><br>
 % <tr>1.  Point Cloud Steering Wheel: <a href="matlab:open_system('sm_point_cloud_steering_wheel');">Model</a>, <a href="matlab:web('sm_point_cloud_steering_wheel.html');">Documentation</a><br>
-% <tr>2.  Point Cloud Disk on Ramp: <a href="matlab:open_system('sm_ptcld_cyl_on_ramp');">Model</a>, <a href="matlab:web('sm_ptcld_cyl_on_ramp.html');">Documentation</a><br>
-% <tr>3.  Disk, Cylinder on Floor: <a href="matlab:open_system('sm_disk_cyl_on_floor');">Model</a>, <a href="matlab:web('sm_disk_cyl_on_floor.html');">Documentation</a><br>
-% <tr>4.  Grid Surface, Ball on Membrane: <a href="matlab:open_system('sm_membrane_ball');">Model</a>, <a href="matlab:web('sm_membrane_ball.html');">Documentation</a><br>
+% <tr>2.  Point Cloud Cylinder on Ramp: <a href="matlab:open_system('sm_ptcld_cyl_on_ramp');">Model</a>, <a href="matlab:web('sm_ptcld_cyl_on_ramp.html');">Documentation</a><br>
+% <tr>3.  Spinning Top (Totem), Contact Solids: <a href="matlab:open_system('sm_spinning_top_totem');">Model</a>, <a href="matlab:web('sm_spinning_top_totem.html');">Documentation</a><br>
+% <tr>4.  Spinning Top (Tippe), Point Cloud: <a href="matlab:open_system('sm_tippe_top');">Model</a>, <a href="matlab:web('sm_tippe_top.html');">Documentation</a><br>
+% <tr>5.  Disk, Cylinder on Floor: <a href="matlab:open_system('sm_disk_cyl_on_floor');">Model</a>, <a href="matlab:web('sm_disk_cyl_on_floor.html');">Documentation</a><br>
+% <tr>6.  Grid Surface, Ball on Membrane: <a href="matlab:open_system('sm_membrane_ball');">Model</a>, <a href="matlab:web('sm_membrane_ball.html');">Documentation</a><br>
 % <br>
 % <tr><b><u>Custom Force Laws</u></b><br>
 % <tr>1.  Location-Dependent Friction, Disk on Floor: <a href="matlab:open_system('sm_disk_floor_custom_friction');">Model</a>, <a href="matlab:web('sm_disk_floor_custom_friction.html');">Documentation</a><br>
+% <br>
+% <tr><b><u>Point Cloud Functions</u></b><br>
+% <tr>1.  Brick: <a href="matlab:Point_Cloud_Data_Brick;">Example</a>, <a href="matlab:edit('Point_Cloud_Data_Brick.m');">Code</a><br>
+% <tr>2.  Circle: <a href="matlab:Point_Cloud_Data_Circle;">Example</a>, <a href="matlab:edit('Point_Cloud_Data_Circle.m');">Code</a><br>
+% <tr>3.  Cylinder: <a href="matlab:Point_Cloud_Data_Cylinder;">Example</a>, <a href="matlab:edit('Point_Cloud_Data_Cylinder.m');">Code</a><br>
+% <tr>4.  Sphere: <a href="matlab:Point_Cloud_Data_Sphere;">Example</a>, <a href="matlab:edit('Point_Cloud_Data_Sphere.m');">Code</a><br>
+% <br>
+% <tr><b><u>Convex Hull Functions</u></b><br>
+% <tr>1.  STL Geometry: <a href="matlab:sm_convex_hull_stlgeometry;">Example</a>, <a href="matlab:edit('sm_convex_hull_stlgeometry.m');">Code</a><br>
+% <tr>2.  Point Cloud: <a href="matlab:sm_convex_hull_pointcloud;">Example</a>, <a href="matlab:edit('sm_convex_hull_pointcloud.m');">Code</a><br>
+% <tr>3.  Revolved Solid: <a href="matlab:sm_convex_hull_revolution;">Example</a>, <a href="matlab:edit('sm_convex_hull_revolution.m');">Code</a><br>
 % </style>
 % </style>
 % </html>
