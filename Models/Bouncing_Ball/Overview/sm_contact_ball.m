@@ -13,7 +13,7 @@
 
 open_system('sm_contact_ball')
 
-set_param(find_system('sm_contact_ball','FindAll', 'on','type','annotation','Tag','ModelFeatures'),'Interpreter','off')
+set_param(find_system('sm_contact_ball','MatchFilter',@Simulink.match.allVariants,'FindAll', 'on','type','annotation','Tag','ModelFeatures'),'Interpreter','off')
 
 %% Simulation Results from Simscape Logging
 %%

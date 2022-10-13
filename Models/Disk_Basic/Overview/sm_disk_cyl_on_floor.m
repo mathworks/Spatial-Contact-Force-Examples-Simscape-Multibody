@@ -16,7 +16,7 @@
 
 open_system('sm_disk_cyl_on_floor')
 
-set_param(find_system('sm_disk_cyl_on_floor','FindAll', 'on','type','annotation','Tag','ModelFeatures'),'Interpreter','off')
+set_param(find_system('sm_disk_cyl_on_floor','MatchFilter',@Simulink.match.allVariants,'FindAll', 'on','type','annotation','Tag','ModelFeatures'),'Interpreter','off')
 
 %% Simulation Results from Simscape Logging
 %%

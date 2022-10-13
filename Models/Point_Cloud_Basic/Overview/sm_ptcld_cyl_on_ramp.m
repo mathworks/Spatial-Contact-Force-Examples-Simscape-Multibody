@@ -14,7 +14,7 @@
 
 open_system('sm_ptcld_cyl_on_ramp')
 
-set_param(find_system('sm_ptcld_cyl_on_ramp','FindAll', 'on','type','annotation','Tag','ModelFeatures'),'Interpreter','off')
+set_param(find_system('sm_ptcld_cyl_on_ramp','MatchFilter',@Simulink.match.allVariants,'FindAll', 'on','type','annotation','Tag','ModelFeatures'),'Interpreter','off')
 
 %% Simulation Results from Simscape Logging
 %%

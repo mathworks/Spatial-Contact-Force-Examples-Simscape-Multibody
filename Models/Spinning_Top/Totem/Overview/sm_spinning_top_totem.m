@@ -12,7 +12,7 @@
 
 open_system('sm_spinning_top_totem')
 
-set_param(find_system('sm_spinning_top_totem','FindAll', 'on','type','annotation','Tag','ModelFeatures'),'Interpreter','off')
+set_param(find_system('sm_spinning_top_totem','MatchFilter',@Simulink.match.allVariants,'FindAll', 'on','type','annotation','Tag','ModelFeatures'),'Interpreter','off')
 
 %% Body of Top and Contact Proxies
 %

@@ -13,7 +13,7 @@
 
 open_system('sm_tippe_top')
 
-set_param(find_system('sm_tippe_top','FindAll', 'on','type','annotation','Tag','ModelFeatures'),'Interpreter','off')
+set_param(find_system('sm_tippe_top','MatchFilter',@Simulink.match.allVariants,'FindAll', 'on','type','annotation','Tag','ModelFeatures'),'Interpreter','off')
 
 %% Body of Top and Contact Proxies
 %

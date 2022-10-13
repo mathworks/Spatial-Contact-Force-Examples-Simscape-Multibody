@@ -18,7 +18,7 @@
 
 open_system('sm_point_cloud_steering_wheel')
 
-set_param(find_system('sm_point_cloud_steering_wheel','FindAll', 'on','type','annotation','Tag','ModelFeatures'),'Interpreter','off')
+set_param(find_system('sm_point_cloud_steering_wheel','MatchFilter',@Simulink.match.allVariants,'FindAll', 'on','type','annotation','Tag','ModelFeatures'),'Interpreter','off')
 
 
 %% Convex Hull 
