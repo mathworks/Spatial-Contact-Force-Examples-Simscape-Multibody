@@ -8,7 +8,7 @@ function [cyl, ptcld] =  sm_disk_cyl_on_floor_param(npts,showplot)
 %                 addition to this estimate, placed at the same points/area
 %                 as on the cylinder circumference
 %
-% Copyright 2022 The MathWorks, Inc.
+% Copyright 2022-2023 The MathWorks, Inc.
 
 % Cylinder dimensions
 cyl.rad  = 5;

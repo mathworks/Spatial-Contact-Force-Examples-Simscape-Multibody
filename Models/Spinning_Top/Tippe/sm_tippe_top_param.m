@@ -1,5 +1,5 @@
 % Parameters for sm_tippe_top.slx
-% Copyright 2022 The MathWorks, Inc.
+% Copyright 2022-2023 The MathWorks, Inc.
 
 scale_factor       = 0.02;     % Scales radii, stem length
 

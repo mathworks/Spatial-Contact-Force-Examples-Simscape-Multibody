@@ -19,7 +19,7 @@ function sm_convex_hull_revolution(extr_data,varargin)
 %   This will plot a revolution of 25 points enclosed in a convex hull
 %   and produce an STL file of the convex hull.
 %
-% Copyright 2021-2022 The MathWorks, Inc.
+% Copyright 2021-2023 The MathWorks, Inc.
 
 %% Assign default values
 showplot = 'plot';

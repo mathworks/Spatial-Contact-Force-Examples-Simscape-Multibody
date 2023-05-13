@@ -5,7 +5,7 @@
 % zero crossings and the effect of solver settings on the simulation
 % results.
 %
-% Copyright 2019-2022 The MathWorks, Inc.
+% Copyright 2019-2023 The MathWorks, Inc.
 
 
 

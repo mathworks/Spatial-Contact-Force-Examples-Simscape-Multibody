@@ -1,6 +1,6 @@
 %sm_disk_floor_custom_friction_param
 
-% Copyright 2022 The MathWorks, Inc.
+% Copyright 2022-2023 The MathWorks, Inc.
 
 % Cylinder dimensions
 cyl.rad  = 5;

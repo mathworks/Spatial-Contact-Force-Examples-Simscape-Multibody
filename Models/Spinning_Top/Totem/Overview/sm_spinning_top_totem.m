@@ -4,7 +4,7 @@
 % selects whether the top is modeled with one contact point on the floor or
 % two contact points on the floor.
 %
-% Copyright 2022 The MathWorks, Inc.
+% Copyright 2022-2023 The MathWorks, Inc.
 
 
 

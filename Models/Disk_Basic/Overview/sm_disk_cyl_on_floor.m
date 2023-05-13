@@ -9,7 +9,7 @@
 % point cloud and the disk contact proxies show the cylinder resting on the
 % floor with no oscillations about the lateral axis.
 %
-% Copyright 2022 The MathWorks, Inc.
+% Copyright 2022-2023 The MathWorks, Inc.
 
 
 %% Model
