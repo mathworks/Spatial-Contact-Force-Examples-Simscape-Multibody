@@ -16,5 +16,5 @@ end
 
 if(open_start_content)
     sm_contact_ball
-    web('Spatial_Contact_Examples_Demo_Script.html')
+    web('Multibody_Contact_Examples_Demo_Script.html')
 end

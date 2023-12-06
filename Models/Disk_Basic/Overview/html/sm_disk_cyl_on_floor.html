@@ -1,12 +1,17 @@
-
-<!DOCTYPE html
-  PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
-<html><head>
-      <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-   <!--
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<!--
 This HTML was auto-generated from MATLAB code.
 To make changes, update the MATLAB code and republish this document.
-      --><title>Multibody Disk Contact, Cylinder on Floor</title><meta name="generator" content="MATLAB 9.14"><link rel="schema.DC" href="http://purl.org/dc/elements/1.1/"><meta name="DC.date" content="2023-03-17"><meta name="DC.source" content="sm_disk_cyl_on_floor.m"><style type="text/css">
+      -->
+<title>Multibody Disk Contact, Cylinder on Floor</title>
+<meta name="generator" content="MATLAB 23.2">
+<link rel="schema.DC" href="http://purl.org/dc/elements/1.1/">
+<meta name="DC.date" content="2023-09-15">
+<meta name="DC.source" content="sm_disk_cyl_on_floor.m">
+<style type="text/css">
 html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}:focus{outine:0}ins{text-decoration:none}del{text-decoration:line-through}table{border-collapse:collapse;border-spacing:0}
 
 html { min-height:100%; margin-bottom:1px; }
@@ -67,7 +72,34 @@ table td { padding:7px 5px; text-align:left; vertical-align:top; border:1px soli
 
 
 
-  </style></head><body><div class="content"><h1>Multibody Disk Contact, Cylinder on Floor</h1><!--introduction--><p>This example models a cylinder bouncing on a floor using different contact methods. It compares contact between two solids, one solid and a point cloud, and one solid with two disks.  The comparison looks at the number of steps during the simulation.  It is seen that the solid-to-solid contact requires more steps as the point of contact moves along the contact line between the cylinder and the floor.  Both the point cloud and the disk contact proxies show the cylinder resting on the floor with no oscillations about the lateral axis.</p><!--/introduction--><h2>Contents</h2><div><ul><li><a href="#1">Model</a></li><li><a href="#2">Simulation Results from Simscape Logging</a></li></ul></div><h2 id="1">Model</h2><img vspace="5" hspace="5" src="sm_disk_cyl_on_floor_01.png" alt=""> <h2 id="2">Simulation Results from Simscape Logging</h2><p>The plot below compares the rotational speed of the lateral axis for each contact modeling method.  The simulations are run separately to obtain an independent measure of the number of steps required to complete the simulation, which is shown in the lower plot.  It is clear that as the contact point for solid-to-solid contact moves along the contact line, the cylinder rotates very slightly about the lateral axis which requires additional simulation steps.</p><img vspace="5" hspace="5" src="sm_disk_cyl_on_floor_02.png" alt=""> <p class="footer">Copyright 2022-2023 The MathWorks, Inc.<br><a href="https://www.mathworks.com/products/matlab/">Published with MATLAB&reg; R2023a</a><br></p></div><!--
+  </style>
+</head>
+<body>
+<div class="content">
+<h1>Multibody Disk Contact, Cylinder on Floor</h1>
+<!--introduction-->
+<p>This example models a cylinder bouncing on a floor using different contact methods. It compares contact between two solids, one solid and a point cloud, and one solid with two disks. The comparison looks at the number of steps during the simulation. It is seen that the solid-to-solid contact requires more steps as the point of contact moves along the contact line between the cylinder and the floor. Both the point cloud and the disk contact proxies show the cylinder resting on the floor with no oscillations about the lateral axis.</p>
+<!--/introduction-->
+<h2>Contents</h2>
+<div>
+<ul>
+<li>
+<a href="#1">Model</a>
+</li>
+<li>
+<a href="#2">Simulation Results from Simscape Logging</a>
+</li>
+</ul>
+</div>
+<h2 id="1">Model</h2>
+<img vspace="5" hspace="5" src="sm_disk_cyl_on_floor_01.png" alt=""> <h2 id="2">Simulation Results from Simscape Logging</h2>
+<p>The plot below compares the rotational speed of the lateral axis for each contact modeling method. The simulations are run separately to obtain an independent measure of the number of steps required to complete the simulation, which is shown in the lower plot. It is clear that as the contact point for solid-to-solid contact moves along the contact line, the cylinder rotates very slightly about the lateral axis which requires additional simulation steps.</p>
+<img vspace="5" hspace="5" src="sm_disk_cyl_on_floor_02.png" alt=""> <p class="footer">Copyright 2022-2023 The MathWorks, Inc.<br>
+<a href="https://www.mathworks.com/products/matlab/">Published with MATLAB&reg; R2023b</a>
+<br>
+</p>
+</div>
+<!--
 ##### SOURCE BEGIN #####
 %% Multibody Disk Contact, Cylinder on Floor
 %
@@ -110,4 +142,6 @@ close all
 bdclose all
 
 ##### SOURCE END #####
---></body></html>
+-->
+</body>
+</html>

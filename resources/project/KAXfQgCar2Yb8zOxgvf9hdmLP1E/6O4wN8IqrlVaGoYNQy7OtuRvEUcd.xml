@@ -1,2 +1,2 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<Info Type="Basic" Visible="1" Icon="" File="Models/Custom_Force_Law/sm_disk_floor_custom_friction.slx" Name="Custom Force Law, Disks"/>
+<Info File="Models/Custom_Force_Law/sm_disk_floor_custom_friction.slx" Icon="" Name="Custom Force Law, Disks" Type="Basic" Visible="1"/>

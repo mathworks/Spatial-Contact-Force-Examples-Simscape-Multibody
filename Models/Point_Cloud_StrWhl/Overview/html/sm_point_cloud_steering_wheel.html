@@ -1,12 +1,17 @@
-
-<!DOCTYPE html
-  PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
-<html><head>
-      <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-   <!--
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<!--
 This HTML was auto-generated from MATLAB code.
 To make changes, update the MATLAB code and republish this document.
-      --><title>Multibody Point Cloud Contact Steering Wheel</title><meta name="generator" content="MATLAB 9.14"><link rel="schema.DC" href="http://purl.org/dc/elements/1.1/"><meta name="DC.date" content="2023-03-17"><meta name="DC.source" content="sm_point_cloud_steering_wheel.m"><style type="text/css">
+      -->
+<title>Multibody Point Cloud Contact Steering Wheel</title>
+<meta name="generator" content="MATLAB 23.2">
+<link rel="schema.DC" href="http://purl.org/dc/elements/1.1/">
+<meta name="DC.date" content="2023-09-15">
+<meta name="DC.source" content="sm_point_cloud_steering_wheel.m">
+<style type="text/css">
 html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}:focus{outine:0}ins{text-decoration:none}del{text-decoration:line-through}table{border-collapse:collapse;border-spacing:0}
 
 html { min-height:100%; margin-bottom:1px; }
@@ -67,7 +72,40 @@ table td { padding:7px 5px; text-align:left; vertical-align:top; border:1px soli
 
 
 
-  </style></head><body><div class="content"><h1>Multibody Point Cloud Contact Steering Wheel</h1><!--introduction--><p>This example models collisions between parameterized solids, solids represented by CAD geometry, and point clouds which act as an approximation of the geometry for the purpose of contact.</p><p>Two spheres follow different trajectories as they collide with the steering wheel.  The sphere whose contact is directly with the CAD geometry follows a path around the convex hull that encloses the CAD geometry.  The sphere colliding with the point cloud passes through the hole in the steering wheel.</p><!--/introduction--><h2>Contents</h2><div><ul><li><a href="#1">Model</a></li><li><a href="#2">Convex Hull</a></li><li><a href="#3">Simulation Results from Simscape Logging</a></li></ul></div><h2 id="1">Model</h2><img vspace="5" hspace="5" src="sm_point_cloud_steering_wheel_01.png" alt=""> <h2 id="2">Convex Hull</h2><p>The Spatial Contact Force block uses a convex hull to detect contact between the steering wheel geometry and other objects (ball, floor). This plot shows what that convex hull would look like.</p><img vspace="5" hspace="5" src="sm_point_cloud_steering_wheel_02.png" alt=""> <h2 id="3">Simulation Results from Simscape Logging</h2><p>This script plots the paths of the balls and the final position of the steering wheel.  The ball that models contact with the STL file directly encounters the convex hull and does not pass through the hole.  The ball that models contact with the point cloud passes through the hole in the steering wheel.</p><img vspace="5" hspace="5" src="sm_point_cloud_steering_wheel_03.png" alt=""> <p class="footer">Copyright 2021-2023 The MathWorks, Inc.<br><a href="https://www.mathworks.com/products/matlab/">Published with MATLAB&reg; R2023a</a><br></p></div><!--
+  </style>
+</head>
+<body>
+<div class="content">
+<h1>Multibody Point Cloud Contact Steering Wheel</h1>
+<!--introduction-->
+<p>This example models collisions between parameterized solids, solids represented by CAD geometry, and point clouds which act as an approximation of the geometry for the purpose of contact.</p>
+<p>Two spheres follow different trajectories as they collide with the steering wheel. The sphere whose contact is directly with the CAD geometry follows a path around the convex hull that encloses the CAD geometry. The sphere colliding with the point cloud passes through the hole in the steering wheel.</p>
+<!--/introduction-->
+<h2>Contents</h2>
+<div>
+<ul>
+<li>
+<a href="#1">Model</a>
+</li>
+<li>
+<a href="#2">Convex Hull</a>
+</li>
+<li>
+<a href="#3">Simulation Results from Simscape Logging</a>
+</li>
+</ul>
+</div>
+<h2 id="1">Model</h2>
+<img vspace="5" hspace="5" src="sm_point_cloud_steering_wheel_01.png" alt=""> <h2 id="2">Convex Hull</h2>
+<p>The Spatial Contact Force block uses a convex hull to detect contact between the steering wheel geometry and other objects (ball, floor). This plot shows what that convex hull would look like.</p>
+<img vspace="5" hspace="5" src="sm_point_cloud_steering_wheel_02.png" alt=""> <h2 id="3">Simulation Results from Simscape Logging</h2>
+<p>This script plots the paths of the balls and the final position of the steering wheel. The ball that models contact with the STL file directly encounters the convex hull and does not pass through the hole. The ball that models contact with the point cloud passes through the hole in the steering wheel.</p>
+<img vspace="5" hspace="5" src="sm_point_cloud_steering_wheel_03.png" alt=""> <p class="footer">Copyright 2021-2023 The MathWorks, Inc.<br>
+<a href="https://www.mathworks.com/products/matlab/">Published with MATLAB&reg; R2023b</a>
+<br>
+</p>
+</div>
+<!--
 ##### SOURCE BEGIN #####
 %% Multibody Point Cloud Contact Steering Wheel
 % 
@@ -120,4 +158,6 @@ close all
 bdclose all
 
 ##### SOURCE END #####
---></body></html>
+-->
+</body>
+</html>
