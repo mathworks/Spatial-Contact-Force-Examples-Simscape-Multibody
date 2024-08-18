@@ -1,7 +1,7 @@
 function [grid_x, grid_y, grid_h] = membrane_grid_params(K,scale_xyz,varargin)
 % Generate grid surface points from L-shaped membrane eigenfunctions.
 %
-% Copyright 2021-2023 The MathWorks, Inc.
+% Copyright 2021-2024 The MathWorks, Inc.
 
 % Default data to show diagram
 if (nargin == 0)

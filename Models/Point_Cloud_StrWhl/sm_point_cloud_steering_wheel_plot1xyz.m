@@ -7,7 +7,7 @@
 % that models contact with the point cloud passes through the hole in the
 % steering wheel.
 %
-% Copyright 2019-2023 The MathWorks, Inc.
+% Copyright 2019-2024 The MathWorks, Inc.
 
 % Reuse figure if it exists, else create new figure
 if ~exist('h1_sm_point_cloud_steering_wheel', 'var') || ...

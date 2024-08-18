@@ -3,7 +3,7 @@
 %
 % This script plots the height of the ball over time.
 %
-% Copyright 2019-2023 The MathWorks, Inc.
+% Copyright 2019-2024 The MathWorks, Inc.
 
 % Reuse figure if it exists, else create new figure
 if ~exist('h1_sm_contact_ball', 'var') || ...

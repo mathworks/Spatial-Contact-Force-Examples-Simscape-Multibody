@@ -19,7 +19,7 @@ function sm_convex_hull_stlgeometry(stlfile,varargin)
 %   This will plot the STL geometry as a surface enclosed in a convex hull
 %   and produce an STL file of the convex hull.
 %
-% Copyright 2021-2023 The MathWorks, Inc.
+% Copyright 2021-2024 The MathWorks, Inc.
 
 %% Assign default values
 showplot    = 'plot';

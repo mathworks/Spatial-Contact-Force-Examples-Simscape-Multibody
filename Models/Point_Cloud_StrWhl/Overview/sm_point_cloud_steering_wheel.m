@@ -10,7 +10,7 @@
 % geometry.  The sphere colliding with the point cloud passes through the
 % hole in the steering wheel.
 %
-% Copyright 2021-2023 The MathWorks, Inc.
+% Copyright 2021-2024 The MathWorks, Inc.
 
 
 
