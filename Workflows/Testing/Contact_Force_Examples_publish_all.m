@@ -14,6 +14,7 @@ model_name_list = {...
     'sm_point_cloud_steering_wheel.slx'
     'sm_spinning_top_totem.slx'
     'sm_tippe_top.slx'
+    'sm_ratchet_pawl.slx'
     };
 
 bdclose all
