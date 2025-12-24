@@ -7,7 +7,7 @@
 % sphere or a point cloud. A point cloud will result in higher amounts of
 % friction forces with the floor for the same friction coefficients.
 %
-% Copyright 2022-2024 The MathWorks, Inc.
+% Copyright 2022-2025 The MathWorks, Inc.
 
 %% Model
 

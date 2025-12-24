@@ -9,7 +9,7 @@ function [ptcld, extr_data] = stem_params(len,rmax,rmin,varargin)
 %
 %   Point cloud data will be centered at [0,0,0]
 %
-% Copyright 2021-2024 The MathWorks, Inc.
+% Copyright 2021-2025 The MathWorks, Inc.
 
 % Parameters for stem
 if (nargin == 0)

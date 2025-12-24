@@ -5,7 +5,7 @@
 % ratchet wheel in place while the arm reverses direction. Planar contact
 % modeling geometry is used to streamline computation.
 %
-% Copyright 2023-2024 The MathWorks, Inc.
+% Copyright 2023-2025 The MathWorks, Inc.
 
 
 %% Model

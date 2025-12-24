@@ -12,7 +12,7 @@
 % and trajectories of the disks differ, showing the effect of the custom
 % force law.
 %
-% Copyright 2022-2024 The MathWorks, Inc.
+% Copyright 2022-2025 The MathWorks, Inc.
 
 
 %% Model

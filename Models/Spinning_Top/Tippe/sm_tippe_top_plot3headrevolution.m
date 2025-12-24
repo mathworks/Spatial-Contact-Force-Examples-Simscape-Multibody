@@ -4,6 +4,6 @@
 % block would use its convex hull to detect contact with the floor. This
 % plot shows what that convex hull would look like.
 %
-% Copyright 2022-2024 The MathWorks, Inc.
+% Copyright 2022-2025 The MathWorks, Inc.
 
 sm_convex_hull_revolution(rev_profile_head,'none','plot')

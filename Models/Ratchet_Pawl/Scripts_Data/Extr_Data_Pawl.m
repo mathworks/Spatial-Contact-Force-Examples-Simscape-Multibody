@@ -21,7 +21,7 @@ function [xy_data,cFrame] = Extr_Data_Pawl(rad, range, offset, scaleY, scaleX, t
 %   add 'plot' as the final argument
 %   >> Extr_Data_Pawl(0.05,60,0.01,1.04,1.1,0.002,'plot')
 
-% Copyright 2013-2024 The MathWorks, Inc.
+% Copyright 2013-2025 The MathWorks, Inc.
 
 showplot = 'n';
 

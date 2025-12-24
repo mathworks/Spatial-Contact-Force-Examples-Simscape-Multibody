@@ -16,7 +16,7 @@ function [xy_data] = Extr_Data_Ratchet_Wheel(r_outer, r_inner, n_teeth, varargin
 %   add 'plot' as the final argument
 %   >> Extr_Data_Ratchet_Wheel(0.1,0.09,30,'plot')
 
-% Copyright 2013-2024 The MathWorks, Inc.
+% Copyright 2013-2025 The MathWorks, Inc.
 
 showplot = 'n';
 
