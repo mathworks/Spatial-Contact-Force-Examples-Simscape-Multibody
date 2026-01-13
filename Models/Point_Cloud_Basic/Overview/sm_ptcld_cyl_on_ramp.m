@@ -7,7 +7,7 @@
 % scaled with the number of points.  Fewer points, however, results in more
 % speed variation as the cylinder rolls down the ramp.
 %
-% Copyright 2022-2025 The MathWorks, Inc.
+% Copyright 2022-2026 The MathWorks, Inc.
 
 
 %% Model

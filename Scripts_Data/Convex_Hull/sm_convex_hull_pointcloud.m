@@ -19,7 +19,7 @@ function sm_convex_hull_pointcloud(pointcloud,varargin)
 %   This will plot 25 randomly distributed points enclosed in a convex hull
 %   and produce an STL file of the convex hull.
 %
-% Copyright 2021-2025 The MathWorks, Inc.
+% Copyright 2021-2026 The MathWorks, Inc.
 
 %% Assign default values
 showplot    = 'plot';

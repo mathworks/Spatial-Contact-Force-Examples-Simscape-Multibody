@@ -8,7 +8,7 @@
 % especially for objects that spin about an axis that passes through the
 % contact point.
 %
-% Copyright 2022-2025 The MathWorks, Inc.
+% Copyright 2022-2026 The MathWorks, Inc.
 
 % Reuse figure if it exists, else create new figure
 if ~exist('h1_sm_tippe_top', 'var') || ...

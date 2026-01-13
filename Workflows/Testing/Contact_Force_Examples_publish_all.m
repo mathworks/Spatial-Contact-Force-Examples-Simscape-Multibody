@@ -1,4 +1,4 @@
-% Copyright 2016-2025 The MathWorks(TM), Inc.
+% Copyright 2016-2026 The MathWorks(TM), Inc.
 
 %% Change to project root folder
 curr_proj = simulinkproject;
@@ -15,6 +15,9 @@ model_name_list = {...
     'sm_spinning_top_totem.slx'
     'sm_tippe_top.slx'
     'sm_ratchet_pawl.slx'
+    'sm_tracked_vehicle_belt.slx'
+    'Gripper_2Belts.slx'
+    'ball_on_conveyor.slx'
     };
 
 bdclose all
