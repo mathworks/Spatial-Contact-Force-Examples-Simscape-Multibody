@@ -7,7 +7,7 @@
 % stem and the body are touching the ground, and the top is rolling in a
 % circle.
 %
-% Copyright 2022-2025 The MathWorks, Inc.
+% Copyright 2022-2026 The MathWorks, Inc.
 
 % Generate simulation results if they don't exist
 if ~exist('simlog_sm_tippe_top', 'var')

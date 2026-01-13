@@ -4,7 +4,7 @@
 % geometry of the sphere is modeled as a point cloud and the surface is
 % modeled using the Grid Surface block.
 %
-% Copyright 2021-2025 The MathWorks, Inc.
+% Copyright 2021-2026 The MathWorks, Inc.
 
 
 

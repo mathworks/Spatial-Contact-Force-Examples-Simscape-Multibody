@@ -8,7 +8,7 @@ function [cyl, ptcld] =  sm_ptcld_cyl_on_ramp_param(npts,showplot)
 %                 addition to this estimate, placed at the same points/area
 %                 as on the cylinder circumference
 %
-% Copyright 2022-2025 The MathWorks, Inc.
+% Copyright 2022-2026 The MathWorks, Inc.
 
 % Cylinder dimensions
 cyl.rad  = 5;

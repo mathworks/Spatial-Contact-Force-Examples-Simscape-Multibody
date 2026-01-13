@@ -9,7 +9,7 @@ To make changes, update the MATLAB code and republish this document.
 <title>Multibody Contact Force Examples</title>
 <meta name="generator" content="MATLAB 25.1">
 <link rel="schema.DC" href="http://purl.org/dc/elements/1.1/">
-<meta name="DC.date" content="2025-12-23">
+<meta name="DC.date" content="2026-01-13">
 <meta name="DC.source" content="Multibody_Contact_Examples_Demo_Script.m">
 <style type="text/css">
 html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}:focus{outine:0}ins{text-decoration:none}del{text-decoration:line-through}table{border-collapse:collapse;border-spacing:0}
@@ -96,7 +96,10 @@ table td { padding:7px 5px; text-align:left; vertical-align:top; border:1px soli
 <tr>1.  Ratchet Pawl Mechanism: <a href="matlab:open_system('sm_ratchet_pawl');">Model</a>, <a href="matlab:web('sm_ratchet_pawl.html');">Documentation</a><br>
 <br>
 <tr><b><u>Custom Force Laws</u></b><br>
-<tr>1.  Location-Dependent Friction, Disk on Floor: <a href="matlab:open_system('sm_disk_floor_custom_friction');">Model</a>, <a href="matlab:web('sm_disk_floor_custom_friction.html');">Documentation</a><br>
+<tr>1.  Disk on Floor, Location-Dependent Friction: <a href="matlab:open_system('sm_disk_floor_custom_friction');">Model</a>, <a href="matlab:web('sm_disk_floor_custom_friction.html');">Documentation</a><br>
+<tr>2.  Ball on Conveyor Belt: <a href="matlab:open_system('ball_on_conveyor');">Model</a>, <a href="matlab:web('ball_on_conveyor.html');">Documentation</a><br>
+<tr>3.  Gripper with Conveyor Belts: <a href="matlab:open_system('Gripper_2Belts');">Model</a>, <a href="matlab:web('Gripper_2Belts.html');">Documentation</a><br>
+<tr>4.  Tracked Vehicle with Moving Belt: <a href="matlab:open_system('sm_tracked_vehicle_belt');">Model</a>, <a href="matlab:web('sm_tracked_vehicle_belt.html');">Documentation</a><br>
 <br>
 <tr><b><u>Point Cloud Functions</u></b><br>
 <tr>1.  Brick: <a href="matlab:Point_Cloud_Data_Brick;">Example</a>, <a href="matlab:edit('Point_Cloud_Data_Brick.m');">Code</a><br>
@@ -112,7 +115,7 @@ table td { padding:7px 5px; text-align:left; vertical-align:top; border:1px soli
 </style>
 </p>
 <pre class="codeinput">
-<span class="comment">% Copyright 2012-2025 The MathWorks(TM), Inc.</span>
+<span class="comment">% Copyright 2012-2026 The MathWorks(TM), Inc.</span>
 </pre>
 <p class="footer">
 <br>
@@ -143,7 +146,10 @@ table td { padding:7px 5px; text-align:left; vertical-align:top; border:1px soli
 % <tr>1.  Ratchet Pawl Mechanism: <a href="matlab:open_system('sm_ratchet_pawl');">Model</a>, <a href="matlab:web('sm_ratchet_pawl.html');">Documentation</a><br>
 % <br>
 % <tr><b><u>Custom Force Laws</u></b><br>
-% <tr>1.  Location-Dependent Friction, Disk on Floor: <a href="matlab:open_system('sm_disk_floor_custom_friction');">Model</a>, <a href="matlab:web('sm_disk_floor_custom_friction.html');">Documentation</a><br>
+% <tr>1.  Disk on Floor, Location-Dependent Friction: <a href="matlab:open_system('sm_disk_floor_custom_friction');">Model</a>, <a href="matlab:web('sm_disk_floor_custom_friction.html');">Documentation</a><br>
+% <tr>2.  Ball on Conveyor Belt: <a href="matlab:open_system('ball_on_conveyor');">Model</a>, <a href="matlab:web('ball_on_conveyor.html');">Documentation</a><br>
+% <tr>3.  Gripper with Conveyor Belts: <a href="matlab:open_system('Gripper_2Belts');">Model</a>, <a href="matlab:web('Gripper_2Belts.html');">Documentation</a><br>
+% <tr>4.  Tracked Vehicle with Moving Belt: <a href="matlab:open_system('sm_tracked_vehicle_belt');">Model</a>, <a href="matlab:web('sm_tracked_vehicle_belt.html');">Documentation</a><br>
 % <br>
 % <tr><b><u>Point Cloud Functions</u></b><br>
 % <tr>1.  Brick: <a href="matlab:Point_Cloud_Data_Brick;">Example</a>, <a href="matlab:edit('Point_Cloud_Data_Brick.m');">Code</a><br>
@@ -160,7 +166,7 @@ table td { padding:7px 5px; text-align:left; vertical-align:top; border:1px soli
 % </html>
 % 
 
-% Copyright 2012-2025 The MathWorks(TM), Inc.
+% Copyright 2012-2026 The MathWorks(TM), Inc.
 
 
 ##### SOURCE END #####

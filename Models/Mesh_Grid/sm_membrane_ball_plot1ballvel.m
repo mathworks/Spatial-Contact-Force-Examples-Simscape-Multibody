@@ -4,7 +4,7 @@
 % Plot ball velocities as the ball falls on the first eigenfunction of the
 % L-shaped membrane.  100 points are used for the point cloud.
 %
-% Copyright 2021-2025 The MathWorks, Inc.
+% Copyright 2021-2026 The MathWorks, Inc.
 
 % Generate simulation results if they don't exist
 if ~exist('simlog_sm_membrane_ball', 'var')
